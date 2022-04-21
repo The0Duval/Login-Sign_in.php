@@ -31,6 +31,6 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 
 }
 
-require_once __DIR__ . '/../html_partial/sign_in.php';
+require_once __DIR__ . '/../html/sign_in.php';
 
 $content = ob_get_clean();
