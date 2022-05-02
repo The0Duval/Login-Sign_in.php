@@ -36,7 +36,7 @@ switch ($uri) {
     
     default:
         http_response_code(404);
-        $content = file_get_contents(__DIR__ . '/html/alerts/404.php');
+        $content = file_get_contents(__DIR__ . '/html/alert/404.php');
 }
 
 require_once __DIR__ . '/html/base.php';

@@ -19,4 +19,4 @@ CREATE TABLE IF NOT EXISTS `founders`(
 
 -- INSERT INTO `user` (`mail`,`password`)
 -- values
--- (`toto`,)
+-- (`toto`,)'

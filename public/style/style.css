@@ -1,0 +1,103 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+/*----- LOGIN PAGE -------*/
+h1{
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.container{
+    margin: auto;
+    margin-top: 10%;
+    /* padding-top: 30px; */
+    background-color: #cecece;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.formInput{
+    /* margin-right:80px; */
+
+} 
+
+.emails{
+    margin-bottom: 0px;
+    background-color: #ffff;
+    position: absolute;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-top: 25px;
+
+
+}
+
+.password{
+    margin-bottom: 0px;
+    background-color: #ffff;
+    position: absolute;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-top: 25px;
+
+}
+
+#email{
+    margin-top: 40px;
+    width: 200px;
+    height: 35px;
+    border: 0px solid #ffff;
+    border-radius: 4px;
+}
+
+#password{
+    margin-top: 40px;
+    width: 200px;
+    height: 35px;
+    border: 0px solid #ffff;
+    border-radius: 4px;
+}
+
+#valider{
+    width: 100px;
+    height: 30px;
+    background-color: #ffff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-left: 50px;
+    margin-top:40px;
+}
+
+
+/* SIGN IN  */
+
+
+.signIn{
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-left: 0px;
+    margin-top:0px;
+}
+#inscrire:visited{
+    text-decoration: none;
+    color: #fff;
+}
+  #inscrive:active{
+    text-decoration: none;
+    color: #fff;
+}
+  #inscrire:link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 24px;
+}

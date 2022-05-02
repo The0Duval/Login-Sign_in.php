@@ -6,8 +6,10 @@ $title = "sign up";
 
 if($_SERVER["REQUEST_METHOD"] === "POST"){
     $mail = filter_input(INPUT_POST,"mail");
+    ECHO($mail);
     $mdp = hash("sha512",filter_input(INPUT_POST,"mdp"));
-    $maRequete = $pdo ->prepare("SELECT`mail` FROM `user` WHERE `mail`= :mail;");
+    require_once __DIR__ . "/../data/pdo.php";
+    $maRequete = $pdo->prepare("SELECT`mail` FROM `user` WHERE `mail`= :mail;");
     $maRequete -> execute([
         ":mail" => $mail
     ]);
