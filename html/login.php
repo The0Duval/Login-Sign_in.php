@@ -10,7 +10,7 @@
         <form class="form" action="login" method="post">
             <div><p class="emails">E-mails</p><input  type="email" name="mail" id="email"></div>
             <div><p class="password">Mot de passe</p><input  type="password" name="mdp" id="password"></div>
-            <div><p class="emails$"></p><input  type="submit" name="valider" id="valider"></div>
+            <div><input  type="submit" name="valider" id="valider"></div>
         </form>
     </div>
 </div>
